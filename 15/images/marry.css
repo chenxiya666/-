@@ -1,0 +1,129 @@
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #633; BACKGROUND: url(bg_body.gif) #300 repeat-y center 50%; FONT: 14px "微软雅黑","宋体", Verdana, serif, sans-serif; SCROLLBAR-HIGHLIGHT-COLOR: #300; CURSOR: text; SCROLLBAR-SHADOW-COLOR: #300; COLOR: black; SCROLLBAR-3DLIGHT-COLOR: #f99; SCROLLBAR-ARROW-COLOR: #966; SCROLLBAR-TRACK-COLOR: #fcc; SCROLLBAR-DARKSHADOW-COLOR: #300; TEXT-ALIGN: center
+}
+#nobg {
+	BACKGROUND: white
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+MENU {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+A:link {
+	COLOR: #ffc; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #ffc; TEXT-DECORATION: underline
+}
+A:hover {
+	BACKGROUND: #ffc; COLOR: #300; TEXT-DECORATION: none
+}
+A:active {
+	BACKGROUND: #ffc; COLOR: #300; TEXT-DECORATION: none
+}
+INPUT {
+	BORDER-RIGHT: #900 1px solid; BORDER-TOP: #900 1px solid; BACKGROUND: #300; FONT: 12px "微软雅黑","宋体", Verdana, serif, sans-serif; BORDER-LEFT: #900 1px solid; COLOR: #fff; BORDER-BOTTOM: #900 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #900 1px solid; BORDER-TOP: #900 1px solid; BACKGROUND: #300; FONT: 12px "微软雅黑","宋体", Verdana, serif, sans-serif; BORDER-LEFT: #900 1px solid; COLOR: #fff; BORDER-BOTTOM: #900 1px solid
+}
+INPUT.btnClass {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 7px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(btnbg.gif) red repeat-x; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 7px; WIDTH: 100px; COLOR: white; LINE-HEIGHT: 23px; HEIGHT: 23px; BORDER-RIGHT-WIDTH: 0px
+}
+TEXTAREA {
+	WIDTH: 200px
+}
+.invite {
+	BACKGROUND-IMAGE: url(invite.jpg); MARGIN: 40px auto 0px; WIDTH: 600px; HEIGHT: 500px; TEXT-ALIGN: left
+}
+.invite H1 {
+	DISPLAY: none
+}
+.invite P {
+	DISPLAY: none
+}
+.nText {
+	FONT: 12px/24px "宋体", Verdana, serif, sans-serif
+}
+.red {
+	FONT: 12px/18px "宋体", Verdana, serif, sans-serif
+}
+.cLink {
+	PADDING-RIGHT: 20px; PADDING-left: 310px; FONT-SIZE: 12px; COLOR: #f60; LINE-HEIGHT: 23px; POSITION: relative; TOP: 448px; HEIGHT: 30px
+}
+.join {
+	BACKGROUND-IMAGE: url(invite2.jpg); MARGIN: 10px auto 0px; WIDTH: 570px; HEIGHT: 500px; TEXT-ALIGN: left
+}
+.gbook {
+	BACKGROUND-IMAGE: url(invite2.jpg); MARGIN: 100px auto 0px; WIDTH: 570px; HEIGHT: 500px; TEXT-ALIGN: left
+}
+.box {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.join .joinlist {
+	FLOAT: left; WIDTH: 260px
+}
+.join .joinlist H1 {
+	PADDING-LEFT: 5px; FONT-SIZE: 14px; LINE-HEIGHT: 35px; BORDER-BOTTOM: silver 1px solid; HEIGHT: 30px
+}
+.join .joinlist UL {
+	OVERFLOW: auto; HEIGHT: 400px
+}
+.join .joinlist P {
+	LINE-HEIGHT: 24px; TEXT-ALIGN: right
+}
+.join .joinlist P SPAN {
+	COLOR: #f60
+}
+.join .bookList P.n {
+	BACKGROUND: #f7f7f7; FONT: 12px/24px "宋体", Verdana, serif, sans-serif; TEXT-INDENT: 10px; BORDER-BOTTOM: silver 1px dotted; HEIGHT: 24px; TEXT-ALIGN: left
+}
+.join .bookList P.n SPAN {
+	FONT-SIZE: 10px; COLOR: gray; TEXT-INDENT: 20px
+}
+.join .bookList P.c {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: white; PADDING-BOTTOM: 3px; COLOR: gray; WORD-BREAK: break-all; TEXT-INDENT: 5px; PADDING-TOP: 3px; TEXT-ALIGN: left
+}
+.join .joinform {
+	BACKGROUND: url(go.gif) no-repeat center bottom; FLOAT: right; WIDTH: 240px; HEIGHT: 420px
+}
+.join .bg2 {
+	BACKGROUND-IMAGE: url(go2.gif)
+}
+.join .joinform FIELDSET {
+	BORDER-RIGHT: #300 1px solid; BORDER-TOP: #300 1px solid; PADDING-BOTTOM: 10px; BORDER-LEFT: #300 1px solid; BORDER-BOTTOM: #300 1px solid
+}
+.join .joinform LEGEND {
+	FONT-SIZE: 16px; MARGIN-LEFT: 0px; COLOR: #ff0; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.join .joinform LABEL {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; COLOR: #b86161; PADDING-TOP: 3px
+}
+.join .joinform FIELDSET DIV {
+	PADDING-LEFT: 7px
+}
+.join .joinform FIELDSET INPUT.text2 {
+	BORDER-RIGHT: rgb(153,0,0) 1px solid; BORDER-TOP: rgb(153,0,0) 1px solid; BACKGROUND: rgb(51,0,0); OVERFLOW: auto; BORDER-LEFT: rgb(153,0,0) 1px solid; COLOR: white; BORDER-BOTTOM: rgb(153,0,0) 1px solid; moz-background-clip: -moz-initial; moz-background-origin: -moz-initial; moz-background-inline-policy: -moz-initial
+}
+.errClass {
+	BORDER-RIGHT: #fc0 1px solid; BORDER-TOP: #fc0 1px solid; MARGIN-TOP: 20px; BACKGROUND: url(t_ok.gif) #ffc no-repeat 3px 5px; LEFT: 20px; BORDER-LEFT: #fc0 1px solid; WIDTH: 300px; COLOR: red; TEXT-INDENT: 20px; LINE-HEIGHT: 24px; BORDER-BOTTOM: #fc0 1px solid; POSITION: absolute; TOP: 20px; HEIGHT: 24px; TEXT-ALIGN: left
+}
+.errClass A {
+	COLOR: red
+}
+.sended {
+	BORDER-RIGHT: #fc0 1px solid; BORDER-TOP: #fc0 1px solid; MARGIN-TOP: 20px; BACKGROUND: url(accept.png) #ffc no-repeat 3px 5px; LEFT: 20px; BORDER-LEFT: #fc0 1px solid; WIDTH: 300px; COLOR: green; TEXT-INDENT: 20px; LINE-HEIGHT: 24px; BORDER-BOTTOM: #fc0 1px solid; POSITION: absolute; TOP: 20px; HEIGHT: 24px; TEXT-ALIGN: left
+}
+.sended A {
+	COLOR: green
+}
