@@ -1,0 +1,86 @@
+html {overflow: hidden;}
+/*body {background: url("../images/bg.jpg") repeat-x;}*/
+.container {position: relative; width: 900px; margin: auto;}
+.car {position: absolute; width: 460px; height: 282px; top: 0; left: 0; z-index: 1000;}
+.u-car {position: absolute; z-index: 999;}
+.u-dog {position: absolute; left: -14px; top: -120px;}
+
+/* 类似首页 */
+.home {position: absolute; width: 900px; height: 500px; display: none; margin: 20px auto; background: url("../images/home.jpg") no-repeat; z-index: 100;}
+.nav {position: absolute; bottom: 30px; left: 88px; }
+.nav ul li {float: left; height: 27px; padding-left: 10px; line-height: 25px; background: url("../images/wedding_btn.jpg") 0 0; border-radius: 5px; margin: auto 3px; cursor: pointer; text-shadow: 0 0 2px red;}
+.nav ul li span {display: inline-block; height: 27px; padding-right: 10px; line-height: 25px; background: url("../images/wedding_btn.jpg") 100% 0; border-radius: 0 5px 5px 0; color: #f5ef91; font-weight: bold;}
+.nav ul li:hover {box-shadow: 0 0 8px #d92b84;}
+
+/* 邀请函 */
+.invitation {display: none; position: absolute; top: 20px; width: 1200px; height: 500px; margin: auto; overflow: hidden;}
+.invitation-content {position: absolute; left: 100px; top: -540px; width: 800px; height: 500px; background: url("../images/invitation.jpg") no-repeat; transition: all 0.8s ease-in-out 0s;}
+.invitation .u-return {display: none; left: 0;}
+
+/* 照片 */
+.wedding-photos {display: none;}
+
+/* 场景六 */
+.six-box {display: none; position: relative; width: 960px; height: 800px; overflow: hidden;}
+.six-box div {position: absolute; width: 100px; height: 100px; background: url("../images/six_center_img.png") no-repeat;}
+
+/* 场景七 */
+.seven-box {display: none; position: relative; margin: 20px auto; width: 958px; height: 580px; border: 1px solid #F4D938;}
+/*.seven-box {display: none; position: relative; margin-top: 40px; width: 958px; height: 800px; background: url("../images/seven_bg.jpg") no-repeat top center; border: 1px solid #F4D938; overflow: hidden;}*/
+.clickMe {position: absolute; left: -145px; bottom: 17px; width: 229px; height: 233px; cursor: pointer; text-indent: -99999px; background: url("../images/clickMe.png") no-repeat; z-index: 9999;}
+.seven-content {position: relative; width: 790px; height: 540px; margin: 20px auto; background: #f865af; border-radius: 50px;}
+.seven-content div {position: absolute; width: 57px; height: 52px; padding: 15px 5px 5px 10px; background: url("../images/note.png") no-repeat; overflow: hidden; cursor: pointer; z-index: 99;}
+.seven-content div.note-a1 {background-position: 0 0;}
+.seven-content div.note-a2 {background-position: -110px 0;}
+.seven-content div.note-a3 {background-position: -220px 0;}
+.seven-content div.note-a4 {background-position: -327px 0;}
+.seven-content div.note-a5 {background-position: 0 -150px;}
+.seven-content div.note-a6 {background-position: -110px -150px;}
+.seven-content div.note-a7 {background-position: -220px -150px;}
+.seven-content div.note-a8 {background-position: -327px -150px;}
+.seven-content div.note-a9 {background-position: 0 -296px;}
+.seven-content div.note-a10 {background-position: -110px -296px;}
+.seven-content div.note-a11 {background-position: -220px -296px;}
+.seven-content div.note-a12 {background-position: -327px -296px;}
+.seven-content div.note-1 {background-position: -1px -440px; color: #494000;}
+.seven-content div.note-2 {background-position: -110px -440px; color: #561e67;}
+.seven-content div.note-3 {background-position: -220px -440px; color: #07516f;}
+.seven-content div.note-4 {background-position: -329px -440px; color: #652f09;}
+.seven-content div.note-5 {background-position: 0 -550px; color: #6b0f13;}
+.seven-content div.note-6 {background-position: -110px -550px; color: #034914;}
+
+/* 遮罩层 */
+.mask {position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: white; opacity: 0.4; filter: Alpha(opacity=40); z-index: 9999; display: none;}
+.pop-box {position: fixed; top: -300px; left: 50%; margin-left: -250px; margin-top: -150px; width: 500px; height: 300px; padding: 10px; background: #7C174B; border-radius: 10px; z-index: 99999;}
+.pop-box h1 {font-size: 30px; text-align: center; color: white; margin: 5px 0 10px;}
+.pop-box textarea {display: block; width: 440px; height: 140px; padding: 10px; margin: 20px auto; resize: none; font-size: 16px; border-radius: 5px; background: white; color: #691323;  _margin-left: 270px;}
+.pop-box .u-sure {margin: auto; width: 100px; padding: 8px 0; background: #B72E74; border-radius: 3px; text-align: center; font-size: 18px; color: white; font-weight: bold; cursor: pointer;}
+
+
+/* 照片墙 */
+.picture-wall {position: relative; width: 750px; height: 630px; margin: 10px auto; display: none;}
+.picture-wall div {position: absolute; border: 1px solid #EEEEEE; padding: 5px; box-shadow: 0 0 8px #666666; border-radius: 3px; cursor: pointer; font-size: 0;}
+.picture-wall .pic0 {left: 100px; top: 0;}
+.picture-wall .pic1 {left: 520px; top: 0;}
+.picture-wall .pic2 {left: 0; top: 110px;}
+.picture-wall .pic3 {left: 240px; top: 110px;}
+.picture-wall .pic4 {left: 420px; top: 110px;}
+.picture-wall .pic5 {left: 660px; top: 110px;}
+.picture-wall .pic6 {left: 100px; top: 260px;}
+.picture-wall .pic7 {left: 310px; top: 260px;}
+.picture-wall .pic8 {left: 520px; top: 260px;}
+.picture-wall .pic9 {left: 210px; top: 370px;}
+.picture-wall .pic10 {left: 450px; top: 370px;}
+.picture-wall .pic11 {left: 310px; top: 520px;}
+
+.picture-wall .picRow img {width: 120px; height: 80px;}
+.picture-wall .picCol img {width: 80px; height: 120px;}
+.bigCenter {z-index: 99999;}
+
+/* 返回首页 */
+.u-return { left: -150px; position: absolute; top: 0; width: 100px; cursor: pointer;}
+
+
+/* 婚礼地址 */
+.address {display: none; position: absolute; top: 20px;}
+.u-love {position: absolute; bottom: 77px; left: 442px; width: 50px; }
